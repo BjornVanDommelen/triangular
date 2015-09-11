@@ -5,8 +5,14 @@ var gulp = require('gulp')
  
 // task
 gulp.task('build-triangular', function () {
-    gulp.src('./src/*.js') // path to your files
-    .pipe(concat('triangular.js'))  // concat and name it "triangular.js"
+    // Build unminified version
+    gulp.src('./src/*.js')
+    .pipe(concat('triangular.js'))
+    .pipe(gulp.dest('.'));
+    
+    // Build minified version
+    gulp.src('./src/*.js')
+    .pipe(concat('triangular.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('.'));
 });

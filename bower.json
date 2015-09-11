@@ -16,6 +16,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "src",
+    ".gitignore",
+    "gulpfile.js",
+    "readme.md",
+    "bower.json",
     "test",
     "tests"
   ],
