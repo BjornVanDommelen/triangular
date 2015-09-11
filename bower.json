@@ -1,0 +1,27 @@
+{
+  "name": "triangular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/BjornVanDommelen/triangular",
+  "authors": [
+    "Bjorn van Dommelen <bjorn.van.dommelen@gmail.com>"
+  ],
+  "description": "Tridion integration library for AngularJS",
+  "main": "dist/triangular.js",
+  "keywords": [
+    "tridion",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0"
+  }
+}
