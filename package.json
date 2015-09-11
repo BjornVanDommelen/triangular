@@ -1,0 +1,15 @@
+{
+  "name": "triangular",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Tridion integration library for AngularJS",
+  "repository": "https://github.com/BjornVanDommelen/triangular",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.4.1"
+  },
+  "scripts": {
+  }
+}
