@@ -6,12 +6,12 @@ var gulp = require('gulp')
 // task
 gulp.task('build-triangular', function () {
     // Build unminified version
-    gulp.src('./src/*.js')
+    gulp.src(['./src/triangular.module', './src/*.js'])
     .pipe(concat('triangular.js'))
     .pipe(gulp.dest('.'));
     
     // Build minified version
-    gulp.src('./src/*.js')
+    gulp.src(['./src/triangular.module', './src/*.js'])
     .pipe(concat('triangular.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('.'));
