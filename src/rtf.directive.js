@@ -35,6 +35,9 @@
           element.append(rawHtml);
         });
       }
+      else {
+        element.append(rawHtml);
+      }
     }
 
     function resolveFromXlink(attr) {
